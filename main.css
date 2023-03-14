@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    /* border: 3px solid gray; */
+    align-items: center;
+    margin-top: 60px;
+}
+
+.main > table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tr > td {
+    border: 5px solid gray;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: linear-gradient(to top, yellow, white);
+    font-size: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+td:hover {
+    opacity: 1;
+}
+
+td:active {
+    opacity: 0.6;
+}
+
+h1 {
+    text-align: center;
+}
